@@ -4,10 +4,6 @@
     margin-right: auto;
     width: 100%;
   }
-#container-da-imagem {
-    width: 300px;
-    position: relative;
-}
-#container-da-imagem img {
+img {
     width: 100%
 }
