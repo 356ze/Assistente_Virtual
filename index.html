@@ -16,8 +16,15 @@
 </head>
 
 <body>
-    <img src="img\GIF Zé Hulck Pow 540-825.gif" alt="Assistente Virtual" class="center" />
-    <!--<iframe width="1280" height="720" src="https://www.powtoon.com/embed/e96Dk792wjC/" frameborder="0" allowfullscreen></iframe>-->
+   
+    <picture>
+      <source srcset="img\GIF Zé PC - 1350x650.gif" media="(min-width: 1200px)">
+      <source srcset="img\GIF Zé Hulck Pow 540-825.gif" media="(min-width: 600px)">
+      <img class="center" srcset="img\GIF Zé Hulck Pow 540-825.gif" alt="…">
+    </picture>
+    
+   <!-- <img src="img\GIF Zé Hulck Pow 540-825.gif" alt="Assistente Virtual" class="center" /> -->
+    
     <footer>            
       <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
         <df-messenger 
